@@ -1,4 +1,8 @@
 {
-  "title": "CWR",
-  "description": "Windty is a basic template using 11ty and Tailwind, and deploys to github pages."
+  "title": "Conversations with",
+  "subtitle": "Rushmoor",
+  "description1": "There are many moments in history that have effected our people so badly and directly. Like many milestones in our history that will be discussed for years to come, 2020 saw a whole new chapter open in the history books.",
+  "description2": "This story that we share here is about just one community, yet we were far from alone, the whole country, the entire world bear the brunt of the Covid-19 Pandemic.",
+  "description3": "Through this site we tell the stories of how a group of ordinary people, took on extraordinary challenges to help others, against all the odds...",
+  "heroimage": "_dsc7532-1.webp"
 }
