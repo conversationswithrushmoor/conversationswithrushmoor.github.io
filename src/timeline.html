@@ -30,11 +30,11 @@ layout: default
             </div>
           </div>
           <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
-            <a href="/" class="font-medium text-indigo-600 hover:text-indigo-500">Home</a>
+            <a href="/" class="font-medium text-gray-500 hover:text-gray-900">Home</a>
 
             <a href="/people" class="font-medium text-gray-500 hover:text-gray-900">People</a>
 
-            <a href="/timeline" class="font-medium text-gray-500 hover:text-gray-900">Timeline</a>
+            <a href="/timeline" class="font-medium text-indigo-600 hover:text-indigo-500">Timeline</a>
 
             <a href="/contest" class="font-medium text-gray-500 hover:text-gray-900">Contest</a>
 
@@ -90,17 +90,17 @@ layout: default
       <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
         <div class="sm:text-center lg:text-left">
           <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-            <span class="block xl:inline">{{ metadata.home.title }}</span>
-            <span class="block text-indigo-600 xl:inline">{{ metadata.home.subtitle }}</span>
+            <span class="block xl:inline">{{ metadata.timeline.title }}</span>
+            <span class="block text-indigo-600 xl:inline">{{ metadata.timeline.subtitle }}</span>
           </h1>
           <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-            {{ metadata.home.description1 }}
+            {{ metadata.timeline.description1 }}
           </p>
           <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-            {{ metadata.home.description2 }}
+            {{ metadata.timeline.description2 }}
           </p>
           <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-            {{ metadata.home.description3 }}
+            {{ metadata.timeline.description3 }}
           </p>
           
         </div>
@@ -108,14 +108,10 @@ layout: default
     </div>
   </div>
   <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-    <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="{{ metadata.home.heroimage }}" alt="">
+    <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="{{ metadata.timeline.heroimage }}" alt="">
   </div>
 </div>
 
-
-
-
-<!-- This example requires Tailwind CSS v2.0+ -->
 <div class="py-12 bg-white">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="lg:text-center">
@@ -141,10 +137,10 @@ layout: default
           </div>
           <div class="ml-4">
             <dt class="text-lg leading-6 font-medium text-gray-900">
-              {{ metadata.home.farnboroughTitle }}
+              {{ metadata.people.farnboroughTitle }}
             </dt>
             <dd class="mt-2 text-base text-gray-500">
-              {{ metadata.home.farnboroughDescription }}
+              {{ metadata.people.farnboroughDescription }}
             </dd>
           </div>
         </div>
@@ -160,116 +156,130 @@ layout: default
           </div>
           <div class="ml-4">
             <dt class="text-lg leading-6 font-medium text-gray-900">
-              {{ metadata.home.aldershotTitle }}
+              {{ metadata.people.aldershotTitle }}
             </dt>
             <dd class="mt-2 text-base text-gray-500">
-              {{ metadata.home.aldershotDescription }}
+              {{ metadata.people.aldershotDescription }}
             </dd>
           </div>
+
+          
         </div>
 
         
       </dl>
+      <!-- component -->
+<div class="container">
+          <div
+            class="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50"
+          >
+            <!-- left -->
+            <div class="flex flex-row-reverse md:contents">
+              <div
+                class="bg-blue-500 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md"
+              >
+                <h3 class="font-semibold text-lg mb-1">Lorem ipsum</h3>
+                <p class="leading-tight text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+                  quaerat?
+                </p>
+              </div>
+              <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+                <div class="h-full w-6 flex items-center justify-center">
+                  <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+                </div>
+                <div
+                  class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"
+                ></div>
+              </div>
+            </div>
+            <!-- right -->
+            <div class="flex md:contents">
+              <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+                <div class="h-full w-6 flex items-center justify-center">
+                  <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+                </div>
+                <div
+                  class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"
+                ></div>
+              </div>
+              <div
+                class="bg-blue-500 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md"
+              >
+                <h3 class="font-semibold text-lg mb-1">Lorem ipsum</h3>
+                <p class="leading-tight text-justify">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Vitae, facilis.
+                </p>
+              </div>
+            </div>
+            <!-- left -->
+            <div class="flex flex-row-reverse md:contents">
+              <div
+                class="bg-blue-500 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md"
+              >
+                <h3 class="font-semibold text-lg mb-1">Lorem ipsum</h3>
+                <p class="leading-tight text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+                  quaerat?
+                </p>
+              </div>
+              <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+                <div class="h-full w-6 flex items-center justify-center">
+                  <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+                </div>
+                <div
+                  class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"
+                ></div>
+              </div>
+            </div>
+            <!-- left -->
+            <div class="flex flex-row-reverse md:contents">
+              <div
+                class="bg-blue-500 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md"
+              >
+                <h3 class="font-semibold text-lg mb-1">Lorem ipsum</h3>
+                <p class="leading-tight text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+                  quaerat?
+                </p>
+              </div>
+              <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+                <div class="h-full w-6 flex items-center justify-center">
+                  <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+                </div>
+                <div
+                  class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"
+                ></div>
+              </div>
+            </div>
+            <!-- right -->
+            <div class="flex md:contents">
+              <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+                <div class="h-full w-6 flex items-center justify-center">
+                  <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+                </div>
+                <div
+                  class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"
+                ></div>
+              </div>
+              <div
+                class="bg-blue-500 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md"
+              >
+                <h3 class="font-semibold text-lg mb-1">Lorem ipsum</h3>
+                <p class="leading-tight text-justify">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Vitae, facilis.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
   </div>
 </div>
 
 
-
-
-
-
-<!-- This example requires Tailwind CSS v2.0+ -->
-<div class="py-12 bg-white">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="lg:text-center">
-      <h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">Photojournals</h2>
-      <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-        Around Town
-      </p>
-      <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-        The following set of images tell the background story. Many towns across the UK were subject to restrictions and still are some months after the lockdown eased. Every shop and other business had to change the way in that they operate... Photos courtesy of Nick Lewis, Justine Burton and Michelle Conway
-
-
-      </p>
-    </div>
-
-    
-  </div>
-</div>
-
-
-
-
-
-    <div class="container mx-auto px-4"> 
-                
-      <section class="py-8 px-4">
-        <div class="flex flex-wrap -mx-4">
-          <div class="hidden md:block md:w-1/2 px-4">
-            <div class="h-full w-full bg-cover rounded shadow-md" style="background-image: url('https://res.cloudinary.com/dqpknoetx/image/upload/v1613134649/TMIH/nicks%20photos/_DSC7513.jpg')"></div>
-          </div>
-          <div class="md:w-1/2 h-auto px-4">
-            <div class="mb-8"><img class="rounded shadow-md" src="https://res.cloudinary.com/dqpknoetx/image/upload/v1613044924/TMIH/People/_dsc7532-1.webp" alt=""></div>
-            <div><img class="rounded shadow-md" src="https://res.cloudinary.com/dqpknoetx/image/upload/v1613134655/TMIH/nicks%20photos/_DSC7528.jpg" alt=""></div>
-          </div>
-        </div>
-      </section>
-                
-      <section class="py-8 px-4">
-        <div class="flex flex-wrap -mx-4">
-          <div class="md:w-1/2 px-4 mb-8 md:mb-0"><img class="rounded shadow-md" src="https://res.cloudinary.com/dqpknoetx/image/upload/v1613134653/TMIH/nicks%20photos/_DSC7526.jpg" alt=""></div>
-          <div class="md:w-1/2 px-4 mb-8 md:mb-0"><img class="rounded shadow-md" src="https://res.cloudinary.com/dqpknoetx/image/upload/v1613134653/TMIH/nicks%20photos/_DSC7525.jpg" alt=""></div>
-        </div>
-      </section>
-                
-      <section class="pt-8 px-4">
-        <div class="flex flex-wrap -mx-4">
-          <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="https://res.cloudinary.com/dqpknoetx/image/upload/v1613134653/TMIH/nicks%20photos/_DSC7524.jpg" alt=""></div>
-          <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="https://res.cloudinary.com/dqpknoetx/image/upload/v1613134653/TMIH/nicks%20photos/_DSC7523.jpg" alt=""></div>
-          <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="https://res.cloudinary.com/dqpknoetx/image/upload/v1613134652/TMIH/nicks%20photos/_DSC7522.jpg" alt=""></div>
-          <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="https://res.cloudinary.com/dqpknoetx/image/upload/v1613134650/TMIH/nicks%20photos/_DSC7509.jpg" alt=""></div>
-          <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="https://res.cloudinary.com/dqpknoetx/image/upload/v1613134651/TMIH/nicks%20photos/_DSC7518.jpg" alt=""></div>
-          <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="https://res.cloudinary.com/dqpknoetx/image/upload/v1613134650/TMIH/nicks%20photos/_DSC7514.jpg" alt=""></div>
-        </div>
-      </section>
-    </div>
-
-<!-- This example requires Tailwind CSS v2.0+ -->
-<div class="py-12 bg-white">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="lg:text-center">
-      <h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">Collaboration</h2>
-      <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-        Our People
-      </p>
-      <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-        The team that make up the Rushmoor volunteer services are a fantastic bunch of people. Michelle Conway & Justine Burton interviewed each and every one of them. 
-      </p>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-    <div class="container mx-auto px-4"> 
-                
-      <section class="py-8 px-4">
-        <div class="flex flex-wrap -mx-4">
-          <div class="hidden md:block md:w-1/2 px-4">
-            <div class="h-full w-full bg-cover rounded shadow-md" style="background-image: url('https://res.cloudinary.com/dqpknoetx/image/upload/v1613047907/TMIH/volunteers/Berties-Photography-Orca-Volunteer-Hampshire-49.jpg')"></div>
-          </div>
-          <div class="md:w-1/2 h-auto px-4">
-            <div class="mb-8"><img class="rounded shadow-md" src="https://res.cloudinary.com/dqpknoetx/image/upload/v1613047847/TMIH/volunteers/Berties-Photography-Orca-Volunteer-Hampshire-15.jpg" alt=""></div>
-            <div><img class="rounded shadow-md" src="https://res.cloudinary.com/dqpknoetx/image/upload/v1613047871/TMIH/volunteers/Berties-Photography-Orca-Volunteer-Hampshire-23.jpg" alt=""></div>
-          </div>
-        </div>
-      </section>
-                
-    
-    </div>
     <nav id="footer" class="bg-gray-500">
 
     <!-- start container -->
@@ -344,3 +354,4 @@ layout: default
 
 
 </nav>
+

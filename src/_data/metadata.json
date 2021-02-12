@@ -1,12 +1,50 @@
 {
-  "title": "Conversations with",
-  "subtitle": "Rushmoor",
-  "description1": "There are many moments in history that have effected our people so badly and directly. Like many milestones in our history that will be discussed for years to come, 2020 saw a whole new chapter open in the history books.",
-  "description2": "This story that we share here is about just one community, yet we were far from alone, the whole country, the entire world bear the brunt of the Covid-19 Pandemic.",
-  "description3": "Through this site we tell the stories of how a group of ordinary people, took on extraordinary challenges to help others, against all the odds...",
-  "heroimage": "_dsc7532-1.webp",
-  "farnboroughTitle": "Farnborough: This Moment in History",
-  "farnboroughDescription": "Through this site we tell the stories of how a group of ordinary people, took on extraordinary challenges to help others, against all the odds...",
-  "aldershotTitle": "Conversations with Aldershot",
-  "aldershotDescription": "We have teamed up with Artist and resident led project Conversations with Aldershot. This project will share our site as an archive of the many experiences of Aldershot residents across this moment in time."
+  "home": {
+    "title": "Conversations with",
+    "subtitle": "Rushmoor",
+    "description1": "There are many moments in history that have effected our people so badly and directly. Like many milestones in our history that will be discussed for years to come, 2020 saw a whole new chapter open in the history books.",
+    "description2": "This story that we share here is about just one community, yet we were far from alone, the whole country, the entire world bear the brunt of the Covid-19 Pandemic.",
+    "description3": "Through this site we tell the stories of how a group of ordinary people, took on extraordinary challenges to help others, against all the odds...",
+    "heroimage": "_dsc7532-1.webp",
+    "farnboroughTitle": "Farnborough: This Moment in History",
+    "farnboroughDescription": "Through this site we tell the stories of how a group of ordinary people, took on extraordinary challenges to help others, against all the odds...",
+    "aldershotTitle": "Conversations with Aldershot",
+    "aldershotDescription": "We have teamed up with Artist and resident led project Conversations with Aldershot. This project will share our site as an archive of the many experiences of Aldershot residents across this moment in time."
+  },
+  "people": {
+    "title": "Conversations with",
+    "subtitle": "Our People",
+    "description1": "There are many moments in history that have effected our people so badly and directly. Like many milestones in our history that will be discussed for years to come, 2020 saw a whole new chapter open in the history books.",
+    "description2": "This story that we share here is about just one community, yet we were far from alone, the whole country, the entire world bear the brunt of the Covid-19 Pandemic.",
+    "description3": "Through this site we tell the stories of how a group of ordinary people, took on extraordinary challenges to help others, against all the odds...",
+    "heroimage": "https://res.cloudinary.com/dqpknoetx/image/upload/v1613048006/TMIH/volunteers/Berties-Photography-Orca-Volunteer-Hampshire-125.jpg",
+    "farnboroughTitle": "Farnborough: This Moment in History",
+    "farnboroughDescription": "Through this site we tell the stories of how a group of ordinary people, took on extraordinary challenges to help others, against all the odds...",
+    "aldershotTitle": "Conversations with Aldershot",
+    "aldershotDescription": "We have teamed up with Artist and resident led project Conversations with Aldershot. This project will share our site as an archive of the many experiences of Aldershot residents across this moment in time."
+  },
+  "timeline": {
+    "title": "Navigating our",
+    "subtitle": "Timeline",
+    "description1": "There are many moments in history that have effected our people so badly and directly. Like many milestones in our history that will be discussed for years to come, 2020 saw a whole new chapter open in the history books.",
+    "description2": "This story that we share here is about just one community, yet we were far from alone, the whole country, the entire world bear the brunt of the Covid-19 Pandemic.",
+    "description3": "Through this site we tell the stories of how a group of ordinary people, took on extraordinary challenges to help others, against all the odds...",
+    "heroimage": "https://res.cloudinary.com/dqpknoetx/image/upload/v1613134649/TMIH/nicks%20photos/_DSC7510.jpg",
+    "farnboroughTitle": "Farnborough: This Moment in History",
+    "farnboroughDescription": "Through this site we tell the stories of how a group of ordinary people, took on extraordinary challenges to help others, against all the odds...",
+    "aldershotTitle": "Conversations with Aldershot",
+    "aldershotDescription": "We have teamed up with Artist and resident led project Conversations with Aldershot. This project will share our site as an archive of the many experiences of Aldershot residents across this moment in time."
+  },
+  "contest": {
+    "title": "Take part in our",
+    "subtitle": "Photography Contest",
+    "description1": "There are many moments in history that have effected our people so badly and directly. Like many milestones in our history that will be discussed for years to come, 2020 saw a whole new chapter open in the history books.",
+    "description2": "This story that we share here is about just one community, yet we were far from alone, the whole country, the entire world bear the brunt of the Covid-19 Pandemic.",
+    "description3": "Through this site we tell the stories of how a group of ordinary people, took on extraordinary challenges to help others, against all the odds...",
+    "heroimage": "https://res.cloudinary.com/dqpknoetx/image/upload/v1613134651/TMIH/nicks%20photos/_DSC7518.jpg",
+    "farnboroughTitle": "Farnborough: This Moment in History",
+    "farnboroughDescription": "Through this site we tell the stories of how a group of ordinary people, took on extraordinary challenges to help others, against all the odds...",
+    "aldershotTitle": "Conversations with Aldershot",
+    "aldershotDescription": "We have teamed up with Artist and resident led project Conversations with Aldershot. This project will share our site as an archive of the many experiences of Aldershot residents across this moment in time."
+  }
 }
